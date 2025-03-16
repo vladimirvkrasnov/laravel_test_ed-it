@@ -2,8 +2,6 @@
 
 namespace Database\Seeders;
 
-use Composer\Semver\Interval;
-use Database\Factories\IntervalsFactory;
 use Illuminate\Database\Seeder;
 
 class IntervalsSeeder extends Seeder

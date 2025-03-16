@@ -2,7 +2,6 @@
 
 namespace App\Console\Commands;
 
-use App\Http\Controllers\IntervalsController;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 
@@ -79,6 +78,7 @@ class intervals extends Command
                 if ($interval->count() == 15) {
                     return $this->confirm('Продолжить вывод результата?', true);
                 }
+                return true;
             });
 
         return 0;
