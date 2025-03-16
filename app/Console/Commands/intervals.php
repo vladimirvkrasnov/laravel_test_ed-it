@@ -18,7 +18,7 @@ class intervals extends Command
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Находит пересечения';
 
     /**
      * Create a new command instance.
